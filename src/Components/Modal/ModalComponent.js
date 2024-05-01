@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useDisclosure, Button, Select } from "@chakra-ui/react";
 import {
   NumberInput,
@@ -24,6 +24,8 @@ export function InitialFocus() {
 
   const initialRef = React.useRef(null);
   const finalRef = React.useRef(null);
+
+  const {requestObject,setRequestObject} = useState({});
 
   return (
     <>
