@@ -3,7 +3,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { Box } from "@chakra-ui/react";
 import { HStack } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
-import { Button } from "@chakra-ui/react";
 import {
   Stat,
   StatLabel,
@@ -12,7 +11,6 @@ import {
   StatArrow,
   StatGroup,
 } from "@chakra-ui/react";
-import { Select } from "@chakra-ui/react";
 import "./App.css";
 import { TableComponent } from "./Components/Table/TableComponent";
 import { InitialFocus } from "./Components/Modal/ModalComponent";
